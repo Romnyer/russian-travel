@@ -1,0 +1,10 @@
+.header__links {
+  padding-top: 13px;
+}
+
+@media (max-width: 320px) {
+
+  .header__links {
+    padding-top: 9px;
+  }
+}

@@ -1,0 +1,29 @@
+.place__image {
+  width: 100%;
+  max-width: 460px;
+  grid-area: place__image;
+}
+
+@media (max-width: 1024px) {
+
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .place {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px 0;
+  }
+}

@@ -1,0 +1,26 @@
+.page__container {
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+
+  .page__container {
+    max-width: 1024px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .page__container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .page__container {
+    max-width: 320px;
+  }
+}
