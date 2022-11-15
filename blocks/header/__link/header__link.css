@@ -1,5 +1,7 @@
 .header__link {
   box-sizing: border-box;
+  transition-property: opacity;
+  transition-duration: 0.8s;
 
   font-weight: 400;
   font-size: 24px;
@@ -9,9 +11,8 @@
   text-decoration: none;
 }
 
-.header__link:nth-of-type(1) {
-  margin-right: 14px;
-  border-bottom: 1.5px solid white;
+.header__link:hover {
+  opacity: 0.8;
 }
 
 @media (max-width: 320px) {

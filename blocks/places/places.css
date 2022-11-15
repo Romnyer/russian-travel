@@ -26,9 +26,7 @@
 
   .places {
     padding: 0 0 66px;
-    display: flex;
     align-items: flex-start;
-    flex-direction: column;
     gap: 50px 0;
   }
 }

@@ -1,4 +1,6 @@
 .footer {
+  max-width: 1184px;
+  margin: 0 auto;
   padding: 92px 48px 24px;
   display: flex;
   justify-content: space-between;
@@ -12,15 +14,21 @@
   }
 }
 
+@media (max-width: 713px) {
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px 0;
+    padding-top: 64px;
+  }
+}
+
 @media (max-width: 320px) {
 
   .footer {
     box-sizing: border-box;
     max-width: 320px;
-    padding-top: 64px;
     padding-left: 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 48px 0;
   }
 }

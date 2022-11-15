@@ -15,9 +15,25 @@
   }
 }
 
+@media (max-width: 768px) {
+
+  .lead__title {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 719px) {
+
+  .lead__title {
+    font-size: 12.5vw;
+    line-height: 13.7vw;
+  }
+}
+
 @media (max-width: 320px) {
 
   .lead__title {
+    padding: 0 16px;
     font-size: 40px;
     line-height: 44px;
   }

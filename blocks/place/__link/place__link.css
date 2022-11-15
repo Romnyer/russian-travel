@@ -6,11 +6,26 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  transition-property: color, text-decoration-color;
+  transition-property: opacity;
   transition-duration: 0.5s;
 }
 
 .place__link:hover {
-  color: #aaa;
-  text-decoration-color: #aaa;
+  opacity: 0.8;
+}
+
+@media (max-width: 518px) {
+
+  .place__link {
+    font-size: 3.5vw;
+    line-height: 4.2vw;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .place__link {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

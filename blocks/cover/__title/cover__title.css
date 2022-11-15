@@ -8,6 +8,14 @@
   text-align: center;
 }
 
+@media (max-width: 520px) {
+
+  .cover__title {
+    font-size: 9.375vw;
+    line-height: 10.9vw;
+  }
+}
+
 @media (max-width: 320px) {
 
   .cover__title {

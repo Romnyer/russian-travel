@@ -5,5 +5,22 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #aaa;
+}
+
+@media (max-width: 518px) {
+
+  .place__url-heading {
+    font-size: 2.3vw;
+    line-height: 2.3vw;
+  }
+}
+
+@media (max-width: 320px) {
+
+  .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+  }
 }
