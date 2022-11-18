@@ -15,6 +15,14 @@
   opacity: 0.8;
 }
 
+@media (max-width: 428px) {
+
+  .header__link {
+    font-size: 5.6vw;
+    line-height: 6.2vw;
+  }
+}
+
 @media (max-width: 320px) {
 
   .header__link {
