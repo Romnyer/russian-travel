@@ -4,3 +4,10 @@
   max-width: 460px;
   grid-area: place__image;
 }
+
+@media (max-width: 518px) {
+
+  .place__image {
+    max-width: 470px;
+  }
+}

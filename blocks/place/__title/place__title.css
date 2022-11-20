@@ -17,7 +17,7 @@
 @media (max-width: 1024px) {
 
   .place__title {
-    font-size: 72px;
+    font-size: 7.03125vw;
   }
 }
 
@@ -30,12 +30,20 @@
   }
 }
 
-@media (max-width: 518px) {
+@media (max-width: 606px) {
 
   .place__title {
     max-width: none;
-    font-size: 7vw;
-    line-height: 6vw;
+    font-size: 6.9vw;
+    line-height: 7.6vw;
+  }
+}
+
+@media (max-width: 518px) {
+
+  .place__title {
+    font-size: 8.1vw;
+    line-height: 8.9vw;
   }
 }
 
@@ -44,6 +52,7 @@
   .place__title {
     margin: 0 16px;
     padding-right: 0;
+
     font-size: 32px;
     line-height: 35px;
   }

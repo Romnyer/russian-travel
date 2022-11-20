@@ -1,6 +1,6 @@
 .cover__title {
   max-width: 560px;
-  margin: 0 auto;
+  margin: auto auto 0;
 
   font-weight: 900;
   font-size: 72px;
@@ -19,6 +19,8 @@
 @media (max-width: 320px) {
 
   .cover__title {
+    box-sizing: border-box;
+    padding: 0 16px;
     font-size: 32px;
     line-height: 35px;
   }

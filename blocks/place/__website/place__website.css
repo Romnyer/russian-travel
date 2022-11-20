@@ -4,6 +4,13 @@
   align-self: end;
 }
 
+@media (max-width: 518px) {
+
+  .place__website {
+    align-self: start;
+  }
+}
+
 @media (max-width: 320px) {
 
   .place__website {

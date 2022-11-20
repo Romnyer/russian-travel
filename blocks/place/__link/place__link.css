@@ -15,15 +15,15 @@
   opacity: 0.8;
 }
 
-@media (max-width: 518px) {
+@media (max-width: 606px) {
 
   .place__link {
-    font-size: 3.5vw;
-    line-height: 4.2vw;
+    font-size: 3vw;
+    line-height: 3.6vw;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 606px) {
 
   .place__link {
     font-size: 18px;

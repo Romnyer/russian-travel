@@ -9,15 +9,15 @@
   color: #aaa;
 }
 
-@media (max-width: 518px) {
+@media (max-width: 606px) {
 
   .place__url-heading {
-    font-size: 2.3vw;
-    line-height: 2.3vw;
+    font-size: 2vw;
+    line-height: 2vw;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 606px) {
 
   .place__url-heading {
     font-size: 12px;

@@ -24,14 +24,16 @@
   }
 }
 
-@media (max-width: 518px) {
+@media (max-width: 606px) {
 
   .place {
+    grid-template-columns: minmax(120.4px, 240px) minmax(124.6px, 352px);
+    column-gap: 28px;
     row-gap: 32px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 518px) {
 
   .place {
     display: flex;
